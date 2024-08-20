@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 48rem)  {
+    .card__title,
+    .card__description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    .card__title {
+        font-size: 8px;
+    }
+
+    .card__description {
+        display: none;
+    }
+}
